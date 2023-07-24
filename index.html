@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Imagenes/Logo.jpg">
     <title>El Sazon de Pablo</title>
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
@@ -14,7 +15,7 @@
     <!--Estilos personales-->
     <link rel="stylesheet" href="estilos.css">
     <!--Scripts Personales-->
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -25,8 +26,8 @@
         <div class="col-md-2">
           <img src="Imagenes/Logo.jpg" alt="Logo" class="rounded-circle" style="width: 70px; height: 70px;">
         </div>
-        <div class="col-md-10">
-          <h1 class="m-1 text-light nowrap">El Sazon de Pablo</h1>
+        <div class="col-md-8">
+          <h1 class="m-2 text-light nowrap">El Sazon de Pablo</h1>
           <p class=" text-light">Empanadas de horno y cocteleria</p>
         </div>
       </div>
@@ -40,7 +41,7 @@
             <a style="font-size: large;" class="nav-link " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Productos</a>
           </li>
           <li class="nav-item" role="presentation">
-            <a style="font-size: large;" class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Carrito🛒</a>
+            <a style="font-size: large;" class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contactos</a>
           </li>
         </ul>
     </div>
@@ -53,13 +54,6 @@
             <p class="fs-2 text" style="margin: 2%;">Contamos con una amplia variedad de rellenos de empanadas de 
               la mejor calidad para ofrecer un producto delicioso a nuestros clientes en nuestro puesto de la feria, 
               Todos los domingos de 10am hasta las 3pm en Avenida las Parcelas cerca de Roberto Kock </p>
-          </div>
-          
-          <!--Links Sobre nosotros/Productos-->
-                
-          <div class="d-flex justify-content-center">
-            <a href="#Contacto" style="margin-right: 10px; font-size: 150%; color:rgb(60, 60, 60);">Sobre Nosotros</a>
-            <a href="#productos" style="margin-left: 10px; font-size: 150%; color:rgb(60, 60, 60);">Productos</a>
           </div>
           
           <!--Galeria de imagenes-->
@@ -76,7 +70,6 @@
                   <p class="text-light col-md-4" style="font-size: 120%;">Todo cacero y fresco</p>
                   <p class="text-light col-md-4" style="font-size: 120%;">Pedidos al por mayor y al detalle</p>
                 </div>
-                  <a href="productos.html" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" style="margin-bottom: 3%; font-size: 150%;">Ver nuestros rellenos</a>
                 </div>
               </div>
             </div>
@@ -199,61 +192,80 @@
         </div>
 
         <!--Carrito-->
-        <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">3
-          <br>
-          <table class="table table-dark table-hover">
-            <thead>
-              <tr class="text-primary">
-                <th scope="col">#</th>
-                <th scope="col">Productos</th>
-                <th scope="col">Precio</th>
-                <th scope="col">Cantidad</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td class="table__productos">
-                  <img src="Imagenes/Empanada(estado base).png" alt="imagen_ejemplo">
-                  <h6 class="title">Title</h6>
-                </td>
-                <td class="table__precio"><p>$1800</p></td>
-                <td class="table__cantidad">
-                  <input type="number" min="1" value="1">
-                  <button class="delete btn btn-danger">X</button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <br><br>
-          <div class="row mx-4">
-            <div class="col">
-              <h3 class="itemCartTotal text-dark">Total: 0</h3>
+        <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+          <!--Contacto-->
+      <section>
+        <div class="contact-section">
+            <h2>¡Contáctanos!</h2>
+            <div style="border: 5px solid black; overflow: auto; margin: 3%; margin-left: 10%; margin-right: 10%">
+              <p class="fs-3 text" style="margin: 2%;">Puede realizar pedidos personalizados escribiendonos a WhatsApp con un par de dias de anticipacion</p>
+              <p class="fs-3 text" style="margin: 2%;">Ademas puede escribirnos los dias domingos para que le reservemos su pedido para cuando llegue a retirarlo</p>
             </div>
-            <div class="col d-flex justify-content-end">
-              <button class="btn btn-success">Comprar</button>
-            </div>
-          </div>
+            <ul>
+                <li><a href="https://wa.me/tunumerodewhatsapp">WhatsApp</a></li>
+                <li><a href="https://wa.me/tunumerodewhatsapp">WhatsApp secundario</a></li>
+                <li><a href="https://www.instagram.com/tu_usuario_de_instagram/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/tu_pagina_de_facebook/">Facebook</a></li>
+            </ul>
         </div>
+    </section>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          margin: 0;
+          padding: 0;
+      }
+
+      .contact-section {
+          padding: 20px;
+          text-align: center;
+      }
+
+      .contact-section h2 {
+          font-size: 28px;
+          margin-bottom: 10px;
+      }
+
+      .contact-section p {
+          font-size: 18px;
+          margin-bottom: 20px;
+      }
+
+      .contact-section ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+      }
+
+      .contact-section li {
+          display: inline-block;
+          margin-right: 10px;
+      }
+
+      .contact-section li a {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: #fff;
+          text-decoration: none;
+          border-radius: 5px;
+      }
+
+      .contact-section li a:hover {
+          background-color: #0056b3;
+      }
+  </style>
+
       </div>
 
       <!--Footer-->
       <footer id="redes" class="d-flex justify-content-between align-items-center py-3 my-4 border-top">
         <a href="#" class="d-flex align-items-center text-body-secondary text-decoration-none">
           <img src="Imagenes/Logo.jpg" alt="Logo de la empresa" class="rounded-circle me-2" width="70" height="70">
-          <span style="font-size: 150%; color: antiquewhite;">© 2023 Company, Inc</span>
+          <span class="text-body-secondary" style="font-size: 150%;">© 2023 ElSazonDePablo.Todos los derechos reservados.
+          </span>
           </a>
-        <ul class="d-flex justify-content-end" style="margin-right: 1%;">
-          <a href="Contacto.html" style="margin-right: 10px;">
-              <img src="Imagenes/Watsap_logo.png" alt="Logo de Warsap" style="width: 50px; height: 50px; max-width: 100%;">
-          </a>
-          <a href="Contacto.html" style="margin-right: 10px;">
-              <img src="Imagenes/Facebook_logo.png" alt="Logo de Facebook" style="width: 50px; height: 50px; max-width: 100%;">
-          </a>
-          <a href="Contacto.html">
-              <img src="Imagenes/Instagram_logo (1).png" alt="Logo de Instagram" style="width: 50px; height: 50px; max-width: 100%;">
-          </a>
-        </ul>
       </footer>
 
 </body>
