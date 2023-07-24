@@ -9,13 +9,11 @@
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
     <!--CSS Bootstrap-->
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <!--Estilos personales-->
     <link rel="stylesheet" href="estilos.css">
-    <!--Scripts Personales-->
-    <script src="script.js"></script>
 </head>
 
 <body>
@@ -77,115 +75,234 @@
 
         <!--Productos-->
         <div class="tab-pane fade container" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-
-          <h2 class="h4 m-4 text-body text-center">Productos</h2>
-
+          <!--Indice-->
+          <br>
+          <div class="Indice"></div>
+            <h2>Indice:</h2>
+            <ul class="lista-productos">
+              <li><a href="#pino">Pino</a></li>
+              <li><a href="#pino-merken">Pino Merken</a></li>
+              <li><a href="#mechada-queso">Mechada queso</a></li>
+              <li><a href="#vegetariana">Vegetariana</a></li>
+              <li><a href="#champiñon-queso">Champiñon Queso</a></li>
+              <li><a href="#napolitana">Napolitana</a></li>
+              <li><a href="#pollo-queso">Pollo queso</a></li>
+              <li><a href="#pollo-choclo-crema">Pollo choclo crema</a></li>
+              <li><a href="#pollo-champiñon">Pollo Champiñon</a></li>
+              <li><a href="#camaron-queso">Camaron Queso</a></li>
+              <li><a href="#camaron-pollo-queso">Camaron Pollo Queso</a></li>
+              <li><a href="#pollo-tocino-queso">Pollo tocino queso</a></li>
+            </ul>
+          <h2 class="h2 m-4 text-body text-center">Productos</h2>
           <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
-            <!--Productos-->
+
+            <!--Rellenos-->
+
+            <!-- Pino -->
             <div class="col d-flex justify-content-center mb-4">
               <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="card-title pt-2 text-center card-text text-primary">Pino</h5>
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="pino">Pino</h5>
                 <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Carne molida<br>-Cebolla<br>-Aceituna<br>-Huevo</p>
+                  <br>
                   <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
                   <div class="d-grid gap-3">
-                    <button class="btn btn-primary button">Añadir al carrito</button>
+                    <button class="btn btn-primary button">Hacer pedido</button>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Pino Merken -->
             <div class="col d-flex justify-content-center mb-4">
               <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="card-title pt-2 text-center card-text text-primary">Pino merken</h5>
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="pino-merken">Pino Merken</h5>
                 <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Carne molida<br>-Cebolla<br>-Aceituna<br>-Huevo<br>-Merken ahumado</p>
                   <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
                   <div class="d-grid gap-3">
-                    <button class="btn btn-primary button">Añadir al carrito</button>
+                    <button class="btn btn-primary button">Hacer pedido</button>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Mechada queso -->
             <div class="col d-flex justify-content-center mb-4">
               <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="card-title pt-2 text-center card-text text-primary">Napolitana</h5>
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="mechada-queso">Mechada queso</h5>
                 <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Carne mechada<br>-Queso</p>
+                  <br>
+                  <br>
+                  <br>
                   <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
                   <div class="d-grid gap-3">
-                    <button class="btn btn-primary button">Añadir al carrito</button>
+                    <button class="btn btn-primary button">Hacer pedido</button>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Vegetariana -->
             <div class="col d-flex justify-content-center mb-4">
               <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="card-title pt-2 text-center card-text text-primary">Mechada</h5>
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="vegetariana">Vegetariana</h5>
                 <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Champiñon<br>-Acelga<br>-Queso</p>
+                  <br>
+                  <br>
                   <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
                   <div class="d-grid gap-3">
-                    <button class="btn btn-primary button">Añadir al carrito</button>
+                    <button class="btn btn-primary button">Hacer pedido</button>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Champiñon Queso -->
             <div class="col d-flex justify-content-center mb-4">
               <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="card-title pt-2 text-center card-text text-primary">Vegetariana</h5>
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="champiñon-queso">Champiñon Queso</h5>
                 <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Champiñon<br>-Queso</p>
+                  <br>
+                  <br>
+                  <br>
                   <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
                   <div class="d-grid gap-3">
-                    <button class="btn btn-primary button">Añadir al carrito</button>
+                    <button class="btn btn-primary button">Hacer pedido</button>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Napolitana -->
             <div class="col d-flex justify-content-center mb-4">
               <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="card-title pt-2 text-center card-text text-primary">Pollo tocino queso</h5>
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="napolitana">Napolitana</h5>
                 <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Queso<br>-Jamon<br>-Tomate<br>-Oregano</p>
+                  <br>
                   <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
                   <div class="d-grid gap-3">
-                    <button class="btn btn-primary button">Añadir al carrito</button>
+                    <button class="btn btn-primary button">Hacer pedido</button>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Pollo queso -->
             <div class="col d-flex justify-content-center mb-4">
               <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="card-title pt-2 text-center card-text text-primary">Camaron queso</h5>
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="pollo-queso">Pollo queso</h5>
                 <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Pollo<br>-Queso</p>
+                  <br>
+                  <br>
+                  <br>
                   <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
                   <div class="d-grid gap-3">
-                    <button class="btn btn-primary button">Añadir al carrito</button>
+                    <button class="btn btn-primary button">Hacer pedido</button>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Pollo choclo queso -->
             <div class="col d-flex justify-content-center mb-4">
               <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="card-title pt-2 text-center card-text text-primary">Camaron pollo queso</h5>
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="pollo-choclo-crema">Pollo choclo crema</h5>
                 <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Pollo<br>-Choclo<br>-Crema</p>
+                  <br>
+                  <br>
                   <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
                   <div class="d-grid gap-3">
-                    <button class="btn btn-primary button">Añadir al carrito</button>
+                    <button class="btn btn-primary button">Hacer pedido</button>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Pollo Champiñon -->
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="pollo-champiñon">Pollo Champiñon</h5>
+                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Pollo<br>-Champiñon</p>
+                  <br>
+                  <br>
+                  <br>
+                  <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
+                  <div class="d-grid gap-3">
+                    <button class="btn btn-primary button">Hacer pedido</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Camaron Queso -->
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="camaron-queso">Camaron Queso</h5>
+                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Camaron<br>-Queso</p>
+                  <br>
+                  <br>
+                  <br>
+                  <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
+                  <div class="d-grid gap-3">
+                    <button class="btn btn-primary button">Hacer pedido</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Camaron Pollo Queso -->
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="camaron-pollo-queso">Camaron Pollo Queso</h5>
+                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Camaron<br>-Pollo<br>-Queso</p>
+                  <br>
+                  <br>
+                  <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
+                  <div class="d-grid gap-3">
+                    <button class="btn btn-primary button">Hacer pedido</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pollo tocino queso -->
+            <div class="col d-flex justify-content-center mb-4">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                <h5 class="card-title pt-2 text-center card-text text-primary" id="pollo-tocino-queso">Pollo tocino queso</h5>
+                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-white-50 description">Ingredientes:<br>-Pollo<br>-Tocino<br>-Queso</p>
+                  <br>
+                  <br>
+                  <h5 class="text-primary">Precio: <span class="precio">$1800</span></h5>
+                  <div class="d-grid gap-3">
+                    <button class="btn btn-primary button">Hacer pedido</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
 
 
           </div>

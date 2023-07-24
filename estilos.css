@@ -11,35 +11,13 @@ head{
     white-space: nowrap;
 }
 
-.description{
-    height: 25px;
-    overflow: hidden;
-    transition: height .3s ease-in .3s;
-}
-
-.description:hover{
-    height: 80px;
-}
-
 .table__productos{
     display: flex;
 }
 
-.table__productos > img{
-    width: 9rem;
-    object-fit: contain;
-    border-radius: 6px;
-    margin-right: 20px;
-}
-
-.table__cantidad > input{
-    width:40px;
-    border: none;
-    outline: 0;
-    font-size: 16px;
-    font-weight: 700;
-    margin-right: 30px;
-    margin-bottom: 20px;
+.indice,li,a{
+    color: black;
+    font-size: large;
 }
 
 .contact-section {
@@ -53,7 +31,7 @@ head{
 }
 
 .contact-section p {
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 20px;
 }
 
@@ -73,7 +51,7 @@ head{
     padding: 10px 20px;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .WhatsApp{
@@ -111,4 +89,3 @@ head{
 .Facebook:hover{
     box-shadow: 0 0 15px #1877f2;
 }
-
