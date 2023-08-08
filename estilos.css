@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgb(221, 185, 76), rgb(252, 243, 225)); font-family: PMinguLiU-ExtB;
+    background-image: linear-gradient(rgb(210, 185, 109), rgb(252, 243, 225)); font-family: PMinguLiU-ExtB;
       
   }
   
@@ -80,13 +80,5 @@ body{
   
   .Instagram:hover{
       box-shadow: 0 0 15px #e6683c;
-  }
-  
-  .Facebook{
-      background-color: #1877f2;
-  }
-  
-  .Facebook:hover{
-      box-shadow: 0 0 15px #1877f2;
   }
   
