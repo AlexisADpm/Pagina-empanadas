@@ -29,6 +29,11 @@ body{
         list-style: none;
     }
 
+    div.card-body h5{
+        position: absolute;
+        bottom: 0;
+      }
+
   .nowrap {
       white-space: nowrap;
   }
