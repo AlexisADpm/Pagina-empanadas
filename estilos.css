@@ -2,11 +2,33 @@ body{
     background-image: linear-gradient(rgb(210, 185, 109), rgb(252, 243, 225)); font-family: PMinguLiU-ExtB;
       
   }
+
+  h5{
+    color: #a2c769;
+  }
   
   head{
       z-index: 100.;
   }
   
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #a2c769;
+    }
+    .nav {
+        --bs-nav-link-padding-x: 1rem;
+        --bs-nav-link-padding-y: 0.5rem;
+        --bs-nav-link-font-weight: ;
+        --bs-nav-link-color: #a2c769;
+        --bs-nav-link-hover-color: #A2C769;
+        --bs-nav-link-disabled-color: #A2C769;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
   .nowrap {
       white-space: nowrap;
   }
