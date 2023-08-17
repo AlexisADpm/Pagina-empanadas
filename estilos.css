@@ -11,6 +11,15 @@ body{
       z-index: 100.;
   }
   
+  .Caja{
+    border: solid #212529 3px;
+	overflow: auto; 
+	margin: 3%;
+	margin-left: 10%; 
+	margin-right: 10%;
+	border-radius: 10px; 
+	box-shadow: 2px 2px 5px 
+}
   .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: var(--bs-nav-pills-link-active-color);
     background-color: #a2c769;
@@ -32,6 +41,22 @@ body{
     div.card-body h5{
         position: absolute;
         bottom: 0;
+      }
+
+      header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+  
+      .espacio{
+        margin-top: 216px;
+      }
+  
+      div.tab-pane fade container{
+        width: 100%;
       }
 
   .nowrap {
