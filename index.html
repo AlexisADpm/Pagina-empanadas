@@ -20,15 +20,15 @@
   <!--Header-->
   <header class="inicio">
     <div class="container-flex navbar bg-dark" data-bs-theme="dark">
-      <div class="row">
-        <div class="col-md-2">
-          <img src="Imagenes/Logo.jpg" alt="Logo" class="rounded-circle" style="width: 70px; height: 70px; margin-left: 1px;">
+        <div style="display: flex;">
+            <div>
+                 <img src="Imagenes/Logo.jpg" alt="Logo" class="rounded-circle" style="width: 70px; height: 70px; margin-left: 1px;">
+            </div>
+            <div>
+                <h1 class="m-2 text-light nowrap">El Sazón de Pablo</h1>
+                <p class=" text-light">Empanadas de horno y cocteleria</p>
+            </div>
         </div>
-        <div class="col-md-8">
-          <h1 class="m-2 text-light nowrap">El Sazón de Pablo</h1>
-          <p class=" text-light">Empanadas de horno y cocteleria</p>
-        </div>
-      </div>
       <!--Nav bar-->
       <div class="d-flex justify-content-end">
         <ul class="nav nav-pills container" id="pills-tab" role="tablist">
@@ -50,10 +50,10 @@
         <!--Inicio-->
         <div class="tab-pane fade show active " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
           <div class="Caja">
-            <p class="fs-2 text" style="margin: 2%;">Bienvenido a la pagina web de El Sazon de Pablo. <br>
+            <p class="fs-2 text" style="margin: 2%;">Bienvenido a la página web de El Sazón de Pablo. <br>
               Contamos con una amplia variedad de empanadas de 
               la mejor calidad para ofrecer un producto delicioso a nuestros clientes en nuestro puesto de la feria, 
-              todos los domingos de 10:00hrs a 15:00hrs. En Avenida las Parcelas cerca de Roberto Kock </p>
+              todos los domingos de 10:00hrs a 15:00hrs. En Avenida las Parcelas cerca de Roberto Kock.</p>
           </div>
           
           <!--Galeria de imagenes-->
@@ -81,34 +81,41 @@
 
           <!--Texto productos-->
           <div class="Caja">
-            <p  class="fs-2 text" style="margin: 2%;">Estos son algunos de los productos que ofrecemos, unos son exclusivos para pedidos anticipados, y otros estan disponibles los domingos en la feria. <br>
-              Ademas disponemos de empanadas de cóctel a $37.000 por 100 unidades.</p>
+            <p  class="fs-2 text" style="margin: 2%;">Estos son algunos de los productos que ofrecemos, unos son exclusivos para pedidos anticipados, y otros están disponibles los domingos en la feria. <br>
+              Además disponemos de empanadas de cóctel, 100 unidades por $37.000.</p>
           </div>
           <br>
 
           <!--Indice-->
 
-          <h2>Indice:</h2>
-            <br>
-            <ul class="lista-productos">
-              <li><a href="#pino">Pino normal</a></li>
-              <li><a href="#pino-merken">Pino Merken</a></li>
-              <li><a href="#mechada-queso">Mechada Queso</a></li>
-              <li><a href="#camaron-queso">Camarón queso</a></li>
-              <li><a href="#camaron-pollo-queso">Camarón pollo queso</a></li>
-              <li><a href="#vegetariana">Vegetariana</a></li>
-              <li><a href="#napolitana">Napolitana</a></li>
-              <li><a href="#champinon-queso">Champiñon queso</a></li>
-              <li><a href="#champinon-pollo-queso">Champiñon pollo queso</a></li>
-              <li><a href="#pollo-queso">Pollo queso</a></li>
-              <li><a href="#pollo-choclo-queso">Pollo choclo queso</a></li>
-              <li><a href="#pollo-choclo-crema">Pollo choclo crema</a></li>
-              <li><a href="#pollo-tocino-queso">Pollo tocino queso</a></li>
-              <li><a href="#pollo-champiñon">Pollo champiñon</a></li>
-              <li><a href="#pollo-salteado-con-verduras">Pollo salteado con verduras</a></li>
-              <li><a href="#pastel-de-choclo">Pastel de choclo</a></li>
-              <li><a href="#marisco-queso">Marisco queso</a></li>
-            </ul>     
+          <section style="display: flex; flex-direction: column; align-items: center; padding-bottom: 3%;">
+            <h1 style="color: rgb(35, 35, 35);">Menú</h1>
+            <div style="background-color: #212529; display: flex; justify-content: center; gap: 5%;  border: 5px; border-color: white; border-style: double;">
+                <div> 
+                    <ul>
+                        <li><a href="#pino">Pino normal</a></li>
+                        <li><a href="#pino-merken">Pino Merken</a></li>
+                        <li><a href="#mechada-queso">Mechada Queso</a></li>
+                        <li><a href="#camaron-queso">Camarón queso</a></li>
+                        <li><a href="#camaron-pollo-queso">Camarón pollo queso</a></li>
+                        <li><a href="#vegetariana">Vegetariana</a></li>
+                        <li><a href="#napolitana">Napolitana</a></li>
+                    </ul>
+                </div>
+                <div style="border-color: white; border-style: double"></div>
+                <div>
+                    <ul>
+                        <li><a href="#champinon-queso">Champiñon queso</a></li>
+                        <li><a href="#champinon-pollo-queso">Champiñon pollo queso</a></li>
+                        <li><a href="#pollo-queso">Pollo queso</a></li>
+                        <li><a href="#pollo-choclo-queso">Pollo choclo queso</a></li>
+                        <li><a href="#pollo-choclo-crema">Pollo choclo crema</a></li>
+                        <li><a href="#pollo-tocino-queso">Pollo tocino queso</a></li>
+                        <li><a href="#pollo-champiñon">Pollo champiñon</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>     
 
           <!--Rellenos-->
 
@@ -116,9 +123,9 @@
 
             <!-- Pino normal -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="pino">Pino normal</h5>
-                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="Imagen pino normal">
+                <img src="Imagenes/Empanada_Pino_xmientras.png" class="card-img-top" style="width: 100%; height: 50%;" style="width: 100%; height: 50%;" alt="Imagen pino normal">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Carne molida<br>-Cebolla<br>-Aceituna<br>-Huevo</p>
                   <br>
@@ -129,9 +136,9 @@
 
             <!-- Pino Merken -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="pino-merken">Pino Merken</h5>
-                <img src="Imagenes/Empanada_Pino_Merken.png" class="card-img-top" alt="Imagen pino merken">
+                <img src="Imagenes/Empanada_Pino_Merken.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen pino merken">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Carne molida<br>-Cebolla<br>-Aceituna<br>-Huevo<br>-Merken ahumado</p>
                   <h5>Precio: <span class="precio">$1800</span></h5>
@@ -143,9 +150,9 @@
 
             <!-- Mechada -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="mechada-queso">Mechada queso</h5>
-                <img src="Imagenes/Empanada_Mechada_Queso.png" class="card-img-top" alt="Imagen mechada">
+                <img src="Imagenes/Empanada_Mechada_Queso.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen mechada">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Carne mechada<br>-Queso</p>
                 
@@ -156,9 +163,9 @@
 
             <!-- Camarón queso -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="camaron-queso">Camarón queso</h5>
-                <img src="Imagenes/Empanada_Camaron_Queso.png" class="card-img-top" alt="Imagen camaron queso">
+                <img src="Imagenes/Empanada_Camaron_Queso.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen camaron queso">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Camarón<br>-Queso</p>
                   
@@ -169,9 +176,9 @@
 
             <!-- Camarón pollo queso -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="camaron-pollo-queso">Camarón Pollo Queso</h5>
-                <img src="Imagenes/Empanada_Camaron_Pollo_Queso.png" class="card-img-top" alt="Imagen camaron pollo queso">
+                <img src="Imagenes/Empanada_Camaron_Pollo_Queso.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen camaron pollo queso">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Camarón<br>-Pollo<br>-Queso</p>
                   
@@ -182,9 +189,9 @@
 
             <!-- Vegetariana -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="vegetariana">Vegetariana</h5>
-                <img src="Imagenes/Empanada_Vegetariana.png" class="card-img-top" alt="Imagen vegetariana">
+                <img src="Imagenes/Empanada_Vegetariana.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen vegetariana">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Champiñon<br>-Acelga<br>-Queso</p>
                   
@@ -195,9 +202,9 @@
 
             <!-- Napolitana -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="napolitana">Napolitana</h5>
-                <img src="Imagenes/Empanada_Napolitana.png" class="card-img-top" alt="Imagen napolitana">
+                <img src="Imagenes/Empanada_Napolitana.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen napolitana">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Queso<br>-Jamon<br>-Tomate<br>-Oregano</p>
                   
@@ -208,9 +215,9 @@
 
             <!-- Champiñon queso -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="champinon-queso">Champiñon queso</h5>
-                <img src="Imagenes/Empanada_champinon_queso.png" class="card-img-top" alt="Imagen champiñon queso">
+                <img src="Imagenes/Empanada_champinon_queso.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen champiñon queso">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Champiñon<br>-Queso</p>
                   
@@ -221,9 +228,9 @@
 
             <!-- Champiñon pollo queso -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="champinon-pollo-queso">Champiñon pollo queso</h5>
-                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="Imagen champiñon pollo queso">
+                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen champiñon pollo queso">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Champiñon<br>-Pollo<br>-Queso</p>
                   
@@ -234,9 +241,9 @@
 
             <!-- Pollo queso -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="pollo-queso">Pollo queso</h5>
-                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="Imagen pollo queso">
+                <img src="Imagenes/Empanada_Pollo_Queso_Xmientras.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen pollo queso">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Pollo<br>-Queso</p>
                   
@@ -247,9 +254,9 @@
 
             <!-- Pollo choclo queso -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="pollo-choclo-queso">Pollo choclo queso</h5>
-                <img src="Imagenes/Empanada_Pollo_Choclo_Queso.png" class="card-img-top" alt="Imagen pollo choclo queso">
+                <img src="Imagenes/Empanada_Pollo_Choclo_Queso.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen pollo choclo queso">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Pollo<br>-Choclo<br>-Queso</p>
                   
@@ -260,9 +267,9 @@
 
             <!-- Pollo choclo crema -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="pollo-choclo-crema">Pollo choclo crema</h5>
-                <img src="Imagenes/Empanada_Pollo_Choclo_Crema.png" class="card-img-top" alt="Imagen pollo choclo crema">
+                <img src="Imagenes/Empanada_Pollo_Choclo_Crema.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen pollo choclo crema">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Pollo<br>-Choclo<br>-Crema</p>
                   
@@ -273,9 +280,9 @@
 
             <!-- Pollo tocino queso -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="pollo-tocino-queso">Pollo tocino queso</h5>
-                <img src="Imagenes/Empanada_Pollo_Tocino.png" class="card-img-top" alt="Imagen pollo tocino queso">
+                <img src="Imagenes/Empanada_Pollo_Tocino.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen pollo tocino queso">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Pollo<br>-Tocino<br>-Queso</p>
                   
@@ -286,9 +293,9 @@
 
             <!-- Pollo champiñon -->
             <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem; height: 30rem;">
                 <h5 class="pt-2 text-center card-text" id="pollo-champiñon">Pollo champiñon</h5>
-                <img src="Imagenes/Empanada_Pollo_Champinon.png" class="card-img-top" alt="Imagen pollo chamiñon">
+                <img src="Imagenes/Empanada_Pollo_Champinon.png" class="card-img-top" style="width: 100%; height: 50%;" alt="Imagen pollo chamiñon">
                 <div class="card-body">
                   <p class="card-text text-white-50 description">Ingredientes:<br>-Pollo<br>-Champiñon</p>
                   
@@ -296,46 +303,6 @@
                 </div>
               </div>
             </div>
-
-            <!-- Pollo salteado con verduras -->
-            <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="pt-2 text-center card-text" id="pollo-salteado-con-verduras">Pollo salteado con verduras</h5>
-                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="Imagen pollo salteado con verduras">
-                <div class="card-body">
-                  <p class="card-text text-white-50 description">Ingredientes:<br>-Pollo<br>-Apio<br>-Zanahoria<br>-Coliflor</p>
-                  
-                  <h5>Precio: <span class="precio">$1800</span></h5>
-                </div>
-              </div>
-            </div>
-
-            <!-- Pastel de choclo -->
-            <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="pt-2 text-center card-text" id="pastel-de-choclo">Pastel de choclo</h5>
-                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="Imagen pastel de choclo">
-                <div class="card-body">
-                  <p class="card-text text-white-50 description">Ingredientes:<br>-Choclo<br>-Carne molida</p>
-                  
-                  <h5>Precio: <span class="precio">$1800</span></h5>
-                </div>
-              </div>
-            </div>
-
-            <!-- Marisco queso -->
-            <div class="col d-flex justify-content-center mb-4">
-              <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
-                <h5 class="pt-2 text-center card-text" id="marisco-queso">Marisco queso</h5>
-                <img src="Imagenes/Empanada(estado base).png" class="card-img-top" alt="Imagen marisco queso">
-                <div class="card-body">
-                  <p class="card-text text-white-50 description">Ingredientes:<br>-Mariscos variados<br>-Queso</p>
-                  
-                  <h5>Precio: <span class="precio">$1800</span></h5>
-                </div>
-              </div>
-            </div>
-
             </div>
           </div>
 
@@ -345,8 +312,8 @@
         <div class="contact-section">
             <h2>¡Contáctanos!</h2>
             <div class="Caja">
-              <p class="fs-3 text" style="margin: 2%;">Para realizar pedidos contactenos via WhatsApp con un par de días de anticipación.</p>
-              <p class="fs-3 text" style="margin: 2%;">Además, puede comunicarse con nosotros los domingos via WhatsApp para ver disponibilidad y que reservemos su pedido para cuando llegue a retirarlo</p>
+              <p class="fs-3 text" style="margin: 2%;">Para realizar pedidos contáctenos vía WhatsApp con un par de días de anticipación.</p>
+              <p class="fs-3 text" style="margin: 2%;">Además, puede comunicarse con nosotros los domingos para ver disponibilidad y que reservemos su pedido para cuando llegue a retirarlo.</p>
             </div>
             <ul>
                 <li><a href="https://wa.me/56975600646" class="WhatsApp">WhatsApp</a></li>

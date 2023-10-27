@@ -52,7 +52,7 @@ body{
       }
   
       .espacio{
-        margin-top: 216px;
+        margin-top: 150px;
       }
   
       div.tab-pane fade container{
@@ -68,8 +68,9 @@ body{
   }
   
   .indice,li,a{
-      color: black;
+      color: rgb(255, 255, 255);
       font-size: x-large;
+      text-decoration: none;
   }
   
   .contact-section {
