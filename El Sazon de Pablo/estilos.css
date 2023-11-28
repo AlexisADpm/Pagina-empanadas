@@ -1,0 +1,169 @@
+body{
+    background-image: linear-gradient(to right top, #e7c254, #ecc961, #f1d06d, #f6d77a, #fbde86);
+  }
+  
+  header{
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+
+  head{
+      z-index: 100.;
+  }
+
+  h5{
+    color: #4291a0;
+  }
+  
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #4291a0;
+    transition: 0.3s;
+
+    }
+    .nav {
+        --bs-nav-link-padding-x: 1rem;
+        --bs-nav-link-padding-y: 0.5rem;
+        --bs-nav-link-color: #4291a0;
+        --bs-nav-link-hover-color: #7ac5d4;
+        --bs-nav-link-disabled-color: #4291a0;
+        
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    div.card-body h5{
+        position: absolute;
+        bottom: 0;
+      }
+  
+      div.tab-pane fade container{
+        width: 100%;
+      }
+
+  .nowrap {
+      white-space: nowrap;
+  }
+  
+  .Caja{
+    border: solid #212529 3px;
+	overflow: auto; 
+	margin: 3%;
+	margin-left: 10%; 
+	margin-right: 10%;
+	border-radius: 10px; 
+	box-shadow: 2px 2px 5px 
+}
+
+  .table__productos{
+      display: flex;
+  }
+  
+  .contact-section {
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .contact-section h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+  }
+  
+  .contact-section p {
+      font-size: 19px;
+      margin-bottom: 20px;
+  }
+  
+  .contact-section ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .contact-section li {
+      display: inline-block;
+      margin-right: 10px;
+  }
+  
+  .contact-section li a {
+      display: inline-block;
+      padding: 10px 20px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+  }
+  
+  .WhatsApp{
+      background-color: #1bd741;
+      margin-bottom: 10px;
+  }
+  
+  .WhatsApp:hover{
+      box-shadow: 0 0 15px #1bd741;
+  }
+  
+  .WhatsApp2{
+      background-color: #1bd741;
+      margin-bottom: 10px;
+  }
+  
+  .WhatsApp2:hover{
+      box-shadow: 0 0 15px #1bd741;
+  }
+  
+  .Instagram{
+      background: #f09433; 
+      background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+      background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+      margin-bottom: 10px;
+  }
+  
+  .Instagram:hover{
+      box-shadow: 0 0 15px #e6683c;
+  }
+  
+
+  div ul li button.nav-link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.30);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+div ul li button.nav-link:hover{
+    color: rgb(255, 255, 255);
+    height: 110%;
+}
+
+section div ul li a{
+    color: rgb(255, 255, 255);font-size: x-large; text-decoration: none;
+}
+
+.menu-empanadas{
+    background-color: #212529;
+    display: flex; 
+    justify-content: center; 
+    gap: 5%;  
+    border: 5px; 
+    border-color: white; 
+    border-style: double;
+}
+
+.menu-empanadas ul li {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu-empanadas ul li:hover {
+    transform: scale(1.13); 
+    background-color: rgb(50, 50, 50);
+  }
+  
