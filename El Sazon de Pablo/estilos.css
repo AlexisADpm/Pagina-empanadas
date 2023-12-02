@@ -1,3 +1,5 @@
+
+
 body{
     background-image: linear-gradient(to right top, #e7c254, #ecc961, #f1d06d, #f6d77a, #fbde86);
   }
@@ -144,26 +146,61 @@ div ul li button.nav-link:hover{
     height: 110%;
 }
 
-section div ul li a{
-    color: rgb(255, 255, 255);font-size: x-large; text-decoration: none;
-}
 
-.menu-empanadas{
-    background-color: #212529;
+
+/* Menu empanadas */
+
+.contenedor-section {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   }
+
+section{
     display: flex; 
-    justify-content: center; 
-    gap: 5%;  
+    align-items: center; 
+    flex-direction: column; 
+    min-width: 350px; 
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  
+  .menu-empanadas{
+    background-color: #212529;
     border: 5px; 
     border-color: white; 
     border-style: double;
-}
-
-.menu-empanadas ul li {
-    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu-empanadas a{
+    color: rgb(255, 255, 255);
+    font-size: x-large; 
+    text-decoration: none;
+  }
+  
+  .menu-empanadas ul li {
+    transition: transform 0.2s ease-in-out;
   }
   
   .menu-empanadas ul li:hover {
     transform: scale(1.13); 
     background-color: rgb(50, 50, 50);
+  } 
+    
+  .menu-empanadas ul{
+    list-style: none; 
+    padding: 0px 20px 0px 20px; 
+    display: grid;
+    grid-template-columns: 300px 300px;
   }
   
+  @media (max-width: 770px) {
+    .menu-empanadas ul{
+      grid-template-columns: 300px;
+    }
+  }
+
+  footer{
+    
+  }
